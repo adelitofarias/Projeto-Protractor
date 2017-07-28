@@ -36,7 +36,6 @@ describe('Teste-01: Pesquisar e adicionar produto ao Carrinho de Compras', funct
         botaoPesquisar.click();
 
         //Valida se o retorno é diferente de 0. Logo, foram encontrados produtos com os termos da busca
-        //expect(qtdeItensEncontrados.getText()).not.toEqual(0);
         expect(element(by.cssContainingText('.ty-column3:nth-child(1) .product-title', 'Batman: Arkham City (X360)')).isDisplayed()).toBe(true);
     });
 
