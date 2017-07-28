@@ -22,13 +22,4 @@ module.exports = {
     },
 
 
-    getText: function() {
-        var tituloPorduto = 'Batman: Arkham City (X360)';
-
-        return tituloPorduto;
-    }
-    ,
-
-
-}
-;
+};
